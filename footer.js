@@ -4,5 +4,5 @@ export function renderFooter(){
     <div>@copyright2024</div>
     </footer>
     `
-    document.body.innerHTML += footerTemplate 
+    document.getElementById('activities').innerHTML += footerTemplate 
 }
