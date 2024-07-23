@@ -1,8 +1,8 @@
 import './style.css'
 import { renderHeader } from "./header.js";
 import { renderLandingPage } from "./landingPage.js";
-import { renderData, allDestinationData, filterData, popularActivities} from './destination.js';
-import { renderFooter } from './footer.js';
+import { renderData, allDestinationData, filterData, popularActivities, renderFooter} from './destination.js';
+
 
 
 renderHeader()

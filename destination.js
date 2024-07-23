@@ -79,7 +79,9 @@ export function renderData(data) {
     image.addEventListener('click', function () {
         const destinationId = Number(image.getAttribute('data-id'));
         showDestinationDetails(destinationId);        
-        document.getElementById('activities').remove()     
+        document.getElementById('activities').remove()
+        document.getElementById('footer').remove() 
+           
 
     });
 });
@@ -138,6 +140,14 @@ export function filterData() {
 }   
  
 //
+export function renderFooter(){
+    const footerTemplate = `
+    <footer id="footer">
+    <div>@copyright2024</div>
+    </footer>
+    `
+    document.getElementById('activities').innerHTML += footerTemplate 
+}
  
 
 
