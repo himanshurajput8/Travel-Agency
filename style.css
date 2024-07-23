@@ -11,7 +11,7 @@ html {
 
 body {
   padding: 0px 10px;
-  background-color: #ffe9f4;  ;
+  background-color: #ffe4f2fe;  ;
 }
 
 header {
@@ -89,7 +89,7 @@ header .menu-bar-icon {
 
 /* landingpage code here */
 .container {
-  background-image: url(https://images.pexels.com/photos/23928844/pexels-photo-23928844/free-photo-of-people-on-street-in-front-of-church-of-agios-georgios-in-santorini-greece.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20230417/pngtree-flat-lay-design-of-tourism-vacation-concept-on-pink-background-with-airplane-trail-photo-image_50971698.jpg);
   width: 100%;
   height: 500px;
   margin-top: 20px;
@@ -187,12 +187,11 @@ header .menu-bar-icon {
 
 .button-container button {
   color: #ca3c67b9; 
-  border: 1px solid #ca3c67b9; 
+  border: 2px solid #ca3c67b9; 
   width: 200px;
   height: 40px;
   border-radius: 50px;
-  
-
+  outline: none; 
   font-size: large;
 }
 
@@ -363,14 +362,14 @@ header .menu-bar-icon {
   border-radius: 20px;
 }
 .img-container{
-  border: 1px solid rgb(204, 204, 204, 0.4);
+  border: 1px solid rgb(204, 204, 204, 0.4); 
   border-radius: 20px;  
   padding-bottom: 30px;
-  background-color: #04a9901f;
+  background-color: #04a9901f; 
   
 }
 .img-container p{  
-  padding: 10px 0px;
+  padding: 10px 0px; 
 }
 .img-container h5{
   margin: 10px 0px;
