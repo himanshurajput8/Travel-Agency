@@ -23,6 +23,7 @@ export function renderHeader(){
         <span><i class="fa-duotone fa-solid fa-cart-shopping"></i></span>
         <button>Sign In</button>
     </div>
+   <span class="menu-bar-icon"> <i class="fa-solid fa-bars"></i></span>
 
     </header>    
     `

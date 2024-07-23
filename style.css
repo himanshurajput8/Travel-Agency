@@ -75,6 +75,9 @@ header button {
   border-radius: 5px;
   border: none;
 }
+header .menu-bar-icon {
+  display: none;
+}
 
 /* landingpage code here */
 .container {
@@ -106,7 +109,6 @@ header button {
   z-index: 1;
   font-family: "Playwrite CU", cursive;
   font-optical-sizing: auto;
-
   font-style: normal;
 }
 
@@ -128,6 +130,10 @@ header button {
   outline: none;
   padding: 0px 25px;
   margin-top: 20px;
+}
+.overlay-text input::placeholder{
+  font-weight: bold;
+  color: black;
 }
 
 /* destination code here.. */
@@ -381,6 +387,10 @@ header button {
 }
 /* responsive code here */ 
 @media only screen and (max-width: 600px){ 
+  header{
+    padding: 0px 10px;
+    border-radius: 3px;
+  }
   header h1{
     font-size: 18px;
   }
@@ -390,10 +400,22 @@ header button {
   header .right-div{
     display: none;
   } 
-  .overlay-text h1 {
-    line-height: 25px;
-    font-size: 18px;
-  
+  header .menu-bar-icon {
+    display: block;
+    font-size: 23px;
+    color: #04a990;
+    font-weight: bolder;
+  }
+  .overlay-text h1 {     
+    font-size: 18px;   
+  }
+  .overlay-text {
+    text-align: center;
+  }
+  .overlay-text input {
+    width: 70%;
+    height: 30px;
+    opacity: 0.7;   
   }
   
   .destination-container {   
@@ -401,11 +423,20 @@ header button {
     margin-top: 30px;    
    
   }
+  .destination-img img {
+   width: 100%;
+  }
   .activities-container{
     margin-top: 50px;
     
     grid-template-columns: repeat(1, 1fr);  
     
     justify-content: center;
+  }
+  #popular-activities-heading h1{
+   text-align: center;
+  }
+  .img-container img{
+    width: 100%;
   }
 }
