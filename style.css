@@ -10,7 +10,8 @@ html {
 }
 
 body {
-  padding: 0px 30px;
+  padding: 0px 10px;
+  background-color: #ffe9f4;  ;
 }
 
 header {
@@ -20,13 +21,14 @@ header {
   align-items: center;
   text-align: center;
   padding: 10px 10px;
-  background-color: #04a9901f;
+  color: #ca3c67b9;
+  background-color: #c265812a;
   /* box-shadow: rgba(50, 50, 93, 0.173) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.051) 0px 18px 36px -18px inset; */
 
 }
 
 header h1::first-letter {
-  color: #04a990;
+  color: #ca3c67b9;
   font-weight: bold;
   font-size: 3rem;
 }
@@ -41,24 +43,29 @@ header ul li {
   list-style-type: none;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  color: #ca3c67b9;
+  font-weight: 700;
 }
 
 header ul li a {
   text-decoration: none;
-  color: black;
+  color: #ca3c67b9;
+  font-weight: 700;
 }
 
 header ul li:hover {
-  color: #04a990;
+  color: #ca3c67b9;
   transform: scale(1.1);
 }
 
 .right-div span {
   padding-left: 10px;
+  color: #ca3c67b9;
+  font-weight: 900;
 }
 
 .right-div>:first-child {
-  color: #04a990;
+  color: #ca3c67b9;
   font-size: 18px;
 }
 
@@ -69,8 +76,8 @@ header ul li:hover {
 
 
 header button {
-  background-color: #04a990;
-  color: white;
+  background-color: #ca3c67b9;
+  color: #ffe9f4;  
   margin-left: 8px;
   padding: 8px 10px;
   border-radius: 5px;
@@ -142,11 +149,12 @@ header .menu-bar-icon {
   margin-top: 60px;
 }
 
-.destination-container {
+.destination-container {   
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  margin-top: 30px;
+  margin-top: 30px; 
+  text-align: center;
   
  
 }
@@ -154,7 +162,7 @@ header .menu-bar-icon {
 .destination-img img {
   width: 300px;
   height: 350px;
-  border-radius: 20px;
+  border-radius: 20px;  
 }
 
 .destination-img {
@@ -178,12 +186,13 @@ header .menu-bar-icon {
 }
 
 .button-container button {
-  border: 2px solid #04a990;
+  color: #ca3c67b9; 
+  border: 1px solid #ca3c67b9; 
   width: 200px;
   height: 40px;
   border-radius: 50px;
-  background-color: white;
-  color: #04a990;
+  
+
   font-size: large;
 }
 
@@ -349,7 +358,7 @@ header .menu-bar-icon {
   justify-content: center;
 }
 .activities-container img{
-  width: 310px;
+  width: 320px;
   height: 250px;
   border-radius: 20px;
 }
