@@ -426,6 +426,7 @@ footer{
     font-size: 23px;
     color: #ca3c67b9; 
     font-weight: bolder;
+    position: relative;
   }
   .overlay-text h1 {     
     font-size: 18px;   
@@ -488,4 +489,48 @@ footer{
   .destination-title h1 {
    text-align: center;
   }
+  .menu-bar{
+    position: absolute;
+    top: 75px;
+    right: 0px;
+    width: 60%;
+    height: 630px;
+    background-color: palevioletred;
+    z-index: 2;
+    
+  
+  }
+  .menu-bar ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30%; 
+    margin-top: 20px;  
+    
+    
+  }
+  .menu-bar ul li{
+    list-style-type: none;
+    line-height: 50px; 
+    font-size: 1.5rem;
+    color: white;    
+  }
+  .menu-bar ul li a{    
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white; 
+    
+  }
+  #menu-btn{
+    width: 40px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    margin: 5% 80%;
+  }
+  .menu-bar ul li a:hover{
+    color: black;      
+    
+  }
 }
+

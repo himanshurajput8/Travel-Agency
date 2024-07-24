@@ -83,8 +83,9 @@ export function renderData(data) {
         document.getElementById('footer').remove() 
            
 
-    });
-});
+    });  
+});   
+
 
     
 } 
