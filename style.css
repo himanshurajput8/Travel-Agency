@@ -494,7 +494,7 @@ footer{
     top: 75px;
     right: 0px;
     width: 60%;
-    height: 630px;
+    height: 100vh;
     background-color: palevioletred;
     z-index: 2;
     
