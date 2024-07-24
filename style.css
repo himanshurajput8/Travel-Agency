@@ -493,9 +493,9 @@ footer{
     position: absolute;
     top: 75px;
     right: 0px;
-    width: 60%;
+    width: 70%;
     height: 100vh;
-    background-color: palevioletred;
+    background-color: rgba(216, 112, 147, 0.942);
     z-index: 2;
     
   
@@ -504,14 +504,14 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 30%; 
+    margin-left: 15%; 
     margin-top: 20px;  
     
     
   }
   .menu-bar ul li{
     list-style-type: none;
-    line-height: 50px; 
+    line-height: 60px; 
     font-size: 1.5rem;
     color: white;    
   }
