@@ -29,8 +29,8 @@ export function renderHeader(){
     `
     document.getElementById('header-div').innerHTML += headerTemplate 
       // Add event listener to about us
-      document.getElementById('about-us-link').addEventListener('click', function() {
-        renderAboutUs();
+      document.getElementById('about-us-link').addEventListener('click', function() {             
+        renderAboutUs();          
         document.getElementById('activities').remove()
     });
 
@@ -71,4 +71,5 @@ export function renderMenubar(){
             menubar.remove();
         });
     });
+    
 }

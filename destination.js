@@ -27,6 +27,10 @@ export const popularActivitiesData = [
     {id: 1, name: 'Anchorage To Quito', imageUrl: "https://thumbs.dreamstime.com/b/downtown-los-angeles-9455378.jpg", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
     {id: 1, name: 'Anchorage To La Paz', imageUrl: "https://media.istockphoto.com/id/1825378350/photo/night-in-embarcadero-plaza-san-francisco-california.webp?b=1&s=170667a&w=0&k=20&c=ul8hzoRzQtv0ISiUjD6ohvqXMk4jjroFDmuBOkhXF30=", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
     
+    {id: 1, name: 'Discover Singapore', imageUrl: "https://img.freepik.com/free-photo/night-falls-city-skyscrapers-illuminate-urban-skyline-generated-by-artificial-intelligence_188544-110033.jpg", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
+    {id: 1, name: 'Kiwiana Panorama', imageUrl: "https://c8.alamy.com/comp/EBW9B4/skyline-of-singapur-at-night-singapore-singapore-EBW9B4.jpg", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
+    {id: 1, name: 'Anchorage To Quito', imageUrl: "https://images.pexels.com/photos/15211286/pexels-photo-15211286/free-photo-of-yaowarat-road-in-bangkok-thailand-at-nighttime.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
+    {id: 1, name: 'Anchorage To La Paz', imageUrl: "https://live.staticflickr.com/3558/3413047873_926e4798cf_b.jpg", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
     
 ]
  

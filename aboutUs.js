@@ -3,8 +3,7 @@ import { renderData, allDestinationData } from './destination.js';
 
 export function renderAboutUs(){
     const aboutUsTemplate = `
-    <div  class="aboutUs-container">
-       
+    <div  class="aboutUs-container">       
                 <div class="about-us-content" id="aboutUs-container">
                     <div class="item1"></div>
                     <div class="item2"></div>
@@ -33,18 +32,13 @@ export function renderAboutUs(){
                         <p>
                             Contact us today to start planning your next adventure!
                         </p>                  
-                    </div>
-                   
-                </div>
-       
-   
+                    </div>                   
+                </div>        
     </div>`
     document.getElementById('app').innerHTML = aboutUsTemplate 
     document.getElementById('delete-aboutUs-btn').addEventListener('click', function(){
         document.getElementById('aboutUs-container').remove(); 
         renderLandingPage();
-        renderData(allDestinationData) 
-         
-       
+        renderData(allDestinationData)               
     })
 } 
