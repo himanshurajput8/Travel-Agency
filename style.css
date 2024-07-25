@@ -435,7 +435,7 @@ footer {
   header .menu-bar-icon {
     display: block;
     font-size: 23px;
-    color: #ca3c67b9;
+    color: white;
     font-weight: bolder;
     position: relative;
   }
@@ -519,8 +519,9 @@ footer {
     right: 0px;
     width: 70%;
     height: 100vh;
-    background-color: rgba(216, 112, 147, 0.942);
+    background-color: #060b23;
     z-index: 2;
+    
 
 
   }
@@ -555,12 +556,10 @@ footer {
     border-radius: 5px;
     border: none;
     margin: 5% 80%;
+    background-color: white;    
   }
 
-  .menu-bar ul li a:hover {
-    color: black;
-
-  }
+  
 }
 
 #cart-container{
