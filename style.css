@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  padding: 0px 10px;
+  padding: 0px 5px;
   
 }
 
@@ -440,7 +440,7 @@ footer {
     position: relative;
   }
   .container{
-    margin-top: 5px;
+    margin-top: 3px;
   }
   .overlay-text h1 {
     font-size: 18px;    
@@ -468,9 +468,7 @@ footer {
 
   .activities-container {
     margin-top: 50px;
-
     grid-template-columns: repeat(1, 1fr);
-
     justify-content: center;
   }
 
@@ -485,12 +483,10 @@ footer {
     margin-top: 5px;
     gap: 8px;
   }
-  .destination-title h1{
-    margin-top: 20px;
-  }
+  
   .destination-container{
     margin-top: 5px;
-    gap: 8px;
+    gap: 2px;
   }
   .destination-details {
     flex-direction: column;
@@ -499,7 +495,7 @@ footer {
 
   }
   .button-container{
-    margin-top: 10px;
+    margin-top: 3px; 
   }
 
   .destination-details img {
@@ -525,13 +521,15 @@ footer {
 
   .destination-title h1 {
     text-align: center;
+    margin-top: 15px;
+    font-size: 22px;
   }
 
   .menu-bar {
     position: absolute;
-    top: 75px;
+    top: 58px;
     right: 0px;
-    width: 70%;
+    width: 75%;
     height: 100vh;
     background-color: #060b23;
     z-index: 2;
