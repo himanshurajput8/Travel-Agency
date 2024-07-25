@@ -439,9 +439,11 @@ footer {
     font-weight: bolder;
     position: relative;
   }
-
+  .container{
+    margin-top: 5px;
+  }
   .overlay-text h1 {
-    font-size: 18px;
+    font-size: 18px;    
   }
 
   .overlay-text {
@@ -479,13 +481,25 @@ footer {
   .img-container img {
     width: 100%;
   }
-
+  .activities-container{
+    margin-top: 5px;
+    gap: 8px;
+  }
+  .destination-title h1{
+    margin-top: 20px;
+  }
+  .destination-container{
+    margin-top: 5px;
+    gap: 8px;
+  }
   .destination-details {
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-
+  }
+  .button-container{
+    margin-top: 10px;
   }
 
   .destination-details img {
