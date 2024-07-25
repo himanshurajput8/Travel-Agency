@@ -12,25 +12,25 @@ export const allDestinationData = [
 ]
 
 export const popularActivitiesData = [
-    {id: 1, name: 'Discover Singapore', imageUrl: "https://img.freepik.com/free-photo/night-falls-city-skyscrapers-illuminate-urban-skyline-generated-by-artificial-intelligence_188544-110033.jpg", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
-    {id: 1, name: 'Kiwiana Panorama', imageUrl: "https://c8.alamy.com/comp/EBW9B4/skyline-of-singapur-at-night-singapore-singapore-EBW9B4.jpg", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
-    {id: 1, name: 'Anchorage To Quito', imageUrl: "https://images.pexels.com/photos/15211286/pexels-photo-15211286/free-photo-of-yaowarat-road-in-bangkok-thailand-at-nighttime.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
-    {id: 1, name: 'Anchorage To La Paz', imageUrl: "https://live.staticflickr.com/3558/3413047873_926e4798cf_b.jpg", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
+    {id: 9, name: 'Discover Singapore', imageUrl: "https://img.freepik.com/free-photo/night-falls-city-skyscrapers-illuminate-urban-skyline-generated-by-artificial-intelligence_188544-110033.jpg", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
+    {id: 10, name: 'Kiwiana Panorama', imageUrl: "https://c8.alamy.com/comp/EBW9B4/skyline-of-singapur-at-night-singapore-singapore-EBW9B4.jpg", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
+    {id: 11, name: 'Anchorage To Quito', imageUrl: "https://images.pexels.com/photos/15211286/pexels-photo-15211286/free-photo-of-yaowarat-road-in-bangkok-thailand-at-nighttime.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
+    {id: 12, name: 'Anchorage To La Paz', imageUrl: "https://live.staticflickr.com/3558/3413047873_926e4798cf_b.jpg", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
     
-    {id: 1, name: 'Discover Singapore', imageUrl: "https://cdn.pixabay.com/photo/2023/05/16/10/03/bangkok-7997157_640.jpg", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
-    {id: 1, name: 'Kiwiana Panorama', imageUrl: "https://www.goodfreephotos.com/albums/thailand/bangkok/night-view-of-the-city-bangkok-thailand.jpg", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
-    {id: 1, name: 'Anchorage To Quito', imageUrl: "https://pics.craiyon.com/2023-11-22/Dl3RrwwfS3GA_zeag8btgA.webp", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
-    {id: 1, name: 'Anchorage To La Paz', imageUrl: "https://pics.craiyon.com/2023-09-12/f7450a3959a04794a22cc098292cbd43.webp", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
+    {id: 13, name: 'Discover Singapore', imageUrl: "https://cdn.pixabay.com/photo/2023/05/16/10/03/bangkok-7997157_640.jpg", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
+    {id: 14, name: 'Kiwiana Panorama', imageUrl: "https://www.goodfreephotos.com/albums/thailand/bangkok/night-view-of-the-city-bangkok-thailand.jpg", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
+    {id: 15, name: 'Anchorage To Quito', imageUrl: "https://pics.craiyon.com/2023-11-22/Dl3RrwwfS3GA_zeag8btgA.webp", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
+    {id: 16, name: 'Anchorage To La Paz', imageUrl: "https://pics.craiyon.com/2023-09-12/f7450a3959a04794a22cc098292cbd43.webp", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
     
-    {id: 1, name: 'Discover Singapore', imageUrl: "https://i.redd.it/ntr1fcn6kl7a1.jpg", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
-    {id: 1, name: 'Kiwiana Panorama', imageUrl: "https://www.shutterstock.com/image-photo/nighttime-view-pomona-california-skyline-600nw-1698111364.jpg", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
-    {id: 1, name: 'Anchorage To Quito', imageUrl: "https://thumbs.dreamstime.com/b/downtown-los-angeles-9455378.jpg", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
-    {id: 1, name: 'Anchorage To La Paz', imageUrl: "https://media.istockphoto.com/id/1825378350/photo/night-in-embarcadero-plaza-san-francisco-california.webp?b=1&s=170667a&w=0&k=20&c=ul8hzoRzQtv0ISiUjD6ohvqXMk4jjroFDmuBOkhXF30=", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
+    {id: 17, name: 'Discover Singapore', imageUrl: "https://i.redd.it/ntr1fcn6kl7a1.jpg", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
+    {id: 18, name: 'Kiwiana Panorama', imageUrl: "https://www.shutterstock.com/image-photo/nighttime-view-pomona-california-skyline-600nw-1698111364.jpg", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
+    {id: 19, name: 'Anchorage To Quito', imageUrl: "https://thumbs.dreamstime.com/b/downtown-los-angeles-9455378.jpg", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
+    {id: 20, name: 'Anchorage To La Paz', imageUrl: "https://media.istockphoto.com/id/1825378350/photo/night-in-embarcadero-plaza-san-francisco-california.webp?b=1&s=170667a&w=0&k=20&c=ul8hzoRzQtv0ISiUjD6ohvqXMk4jjroFDmuBOkhXF30=", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
     
-    {id: 1, name: 'Discover Singapore', imageUrl: "https://img.freepik.com/free-photo/night-falls-city-skyscrapers-illuminate-urban-skyline-generated-by-artificial-intelligence_188544-110033.jpg", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
-    {id: 1, name: 'Kiwiana Panorama', imageUrl: "https://c8.alamy.com/comp/EBW9B4/skyline-of-singapur-at-night-singapore-singapore-EBW9B4.jpg", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
-    {id: 1, name: 'Anchorage To Quito', imageUrl: "https://images.pexels.com/photos/15211286/pexels-photo-15211286/free-photo-of-yaowarat-road-in-bangkok-thailand-at-nighttime.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
-    {id: 1, name: 'Anchorage To La Paz', imageUrl: "https://live.staticflickr.com/3558/3413047873_926e4798cf_b.jpg", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
+    {id: 21, name: 'Discover Singapore', imageUrl: "https://img.freepik.com/free-photo/night-falls-city-skyscrapers-illuminate-urban-skyline-generated-by-artificial-intelligence_188544-110033.jpg", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
+    {id: 22, name: 'Kiwiana Panorama', imageUrl: "https://c8.alamy.com/comp/EBW9B4/skyline-of-singapur-at-night-singapore-singapore-EBW9B4.jpg", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
+    {id: 23, name: 'Anchorage To Quito', imageUrl: "https://images.pexels.com/photos/15211286/pexels-photo-15211286/free-photo-of-yaowarat-road-in-bangkok-thailand-at-nighttime.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
+    {id: 24, name: 'Anchorage To La Paz', imageUrl: "https://live.staticflickr.com/3558/3413047873_926e4798cf_b.jpg", cruise: 'Escorted Tour', tour: 'Rail Tour', rs: '92.00'},
     
 ]
  
@@ -62,8 +62,7 @@ export function renderData(data) {
         <div class="destination-img remaining" data-id="${item.id}">
         <img src="${item.imageUrl}">
           <p>${item.name}</p>
-        </div> 
-        
+        </div>         
         `;
         }).join("");
         if (seeAllButton.innerText === "See All Destination") {
@@ -74,32 +73,27 @@ export function renderData(data) {
             remainingImages.forEach(function (image) {
                 image.remove()
             })
-            seeAllButton.innerText = "See All Destination"
+            seeAllButton.innerText = "See All Destination" 
         }
-    });
-    
+    });    
      // Add click event listener to each destination image
     document.querySelectorAll('.destination-img').forEach(function (image) {
     image.addEventListener('click', function () {
         const destinationId = Number(image.getAttribute('data-id'));
         showDestinationDetails(destinationId);        
         document.getElementById('activities').remove()
-        document.getElementById('footer').remove() 
-           
+        document.getElementById('footer').remove()          
 
     });  
-});   
-
-
-    
+});       
 } 
+
 
 // Function to show details of the selected destination
 function showDestinationDetails(id) {
     const destination = allDestinationData.find(function(item) {
         return item.id === id;
     });
-
     if (destination) {
         const detailHTML = `
             <div class="destination-details">
@@ -109,12 +103,11 @@ function showDestinationDetails(id) {
                 <a href="${destination.locationUrl}" class="destination-link" target="_blank" >View More about ${destination.name}</a></p>
             </div>
         `;
-        document.getElementById('app').innerHTML = detailHTML;
-        
-
+        document.getElementById('app').innerHTML = detailHTML;     
     }
 }
-//popular activities
+
+//popular activities code here
 export function popularActivities(){
     const renderPopularActivitiesData = popularActivitiesData.map(function(item2){
         return `
@@ -144,7 +137,7 @@ export function filterData() {
     renderData(filteredData);  
 }   
  
-//
+//function of footers
 export function renderFooter(){
     const footerTemplate = `
     <footer id="footer">
