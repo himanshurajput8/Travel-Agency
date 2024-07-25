@@ -83,7 +83,7 @@ header .menu-bar-icon {
   background-image: url(https://wallpapers.com/images/hd/travel-and-tourism-cauy0mlqaebfcpcc.jpg);
   width: 100%;
   height: 500px;
-  margin-top: 20px;
+  margin-top: 10px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   position: relative;
@@ -529,7 +529,7 @@ footer {
     position: absolute;
     top: 58px;
     right: 0px;
-    width: 75%;
+    width: 80%;
     height: 100vh;
     background-color: #060b23;
     z-index: 2;
