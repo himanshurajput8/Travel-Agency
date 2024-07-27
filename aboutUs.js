@@ -42,3 +42,40 @@ export function renderAboutUs(){
         renderData(allDestinationData)               
     })
 } 
+
+//function tours 
+export function renderTours(){
+    const toursTemplate = `<div id="container">
+    <div class="tours-container">
+        
+        <div><img src="https://images.unsplash.com/photo-1648030258221-53428147b4ff?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></div>
+        <div><img src="https://images.unsplash.com/photo-1534238151781-c62af32c97a0?q=80&w=1906&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></div>
+        <div><img src="https://plus.unsplash.com/premium_photo-1683126899216-9572ecfd06a7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></div>
+        <div><img src="https://plus.unsplash.com/premium_photo-1683800241997-a387bacbf06b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></div>   
+        <button id="delete-tour-btn">X</button>    
+    </div>
+    <div class="tour-text">
+        <div class="tour-inner-div">
+            <p>Our tours are meticulously planned by travel experts to ensure you get most out of every destination.
+            Local Guides: Experience true essence of each location with our knowledgeable local guides who provide insider insights and tips.
+            Comfort and Convenience: Enjoy seamless travel with our premium services, including comfortable  private transfers,and 24/7 support.
+            Join us on an unforgettable journey to [Destination], a place where breathtaking landscapes, vibrant culture, and rich history come together to create an extraordinary experience. Whether you’re seeking adventure, relaxation, or a bit of both, our [Duration] tour has something for everyone.</p>       
+        </div>
+        
+    </div><div>`
+    
+    document.getElementById('app').innerHTML = toursTemplate 
+     //add event listener to delete tour
+     document.getElementById('delete-tour-btn').addEventListener('click',function(){
+        document.getElementById('container').remove(); 
+        renderLandingPage();
+        renderData(allDestinationData)   
+     }) 
+} 
+
+
+export function renderShop(){
+    const shopTemplate = `
+    `
+    document.getElementById('app').innerHTML = shopTemplate 
+}

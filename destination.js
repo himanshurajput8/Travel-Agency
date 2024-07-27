@@ -1,3 +1,4 @@
+
 export const allDestinationData = [
     { id: 1, name: 'Bali', imageUrl: "https://media.istockphoto.com/id/1876784184/photo/ulun-danu-beratan-temple-at-sunrise-bali-indonesia.webp?b=1&s=170667a&w=0&k=20&c=eJjvhRP4nUz1kBeKIN9YrFxtgs3d_9NYrxAgRjhucNU=", description: 'Bali, the Island of the Gods, is a paradise that offers something for everyone. From the stunning beaches of Kuta and Seminyak to the lush rice terraces of Ubud, the island is a haven for both relaxation and adventure. Visitors can explore iconic temples like Uluwatu and Tanah Lot, dive into the vibrant underwater world of Nusa Penida, and enjoy a lively nightlife scene. Bali is also renowned for its luxurious resorts and rejuvenating spa treatments, providing the perfect setting for relaxation. Immerse yourself in the rich Balinese culture and traditions traditions, and savor exquisite cuisine that will tantalize your taste buds. Whether you re seeking a peaceful retreat or an action-packed getaway,  Bali is the ultimate the ultimate destination for your next adventure', locationUrl: 'https://en.wikipedia.org/wiki/Bali'},
     { id: 2, name: 'Bangkok', imageUrl: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/350599279.jpg?k=a5e491a7f969edd33907623ed53a6fe0ec67e5761664cbbdeffc1fbd436d36d0&o=&hp=1", description: 'Bangkok, the bustling capital of Thailand, is a city that seamlessly blends the old with the new, offering a unique and vibrant experience for all who visit. Located in the heart of Southeast Asia, this sprawling metropolis is renowned for its rich history, cultural landmarks, bustling markets, and modern skyscrapers. The city  historical core is home to some of Thailand s most revered cultural sites. The Grand Palace, a magnificent complex that has been the official residence of the Kings of Siam since 1782, is a must-see. Within its walls lies Wat Phra Kaew, the Temple of the Emerald Buddha. which houses a stunning statue carved from a single block of jade. Just a short distance away, Wat Arun, also known as the Temple of Dawn, offers  a  breathtaking  riverside. ', locationUrl: 'https://en.wikipedia.org/wiki/Bangkok' },
@@ -85,7 +86,8 @@ export function renderData(data) {
         document.getElementById('footer').remove()          
 
     });  
-});       
+}); 
+          
 } 
 
 
@@ -107,6 +109,8 @@ function showDestinationDetails(id) {
     }
 }
 
+
+
 //popular activities code here
 export function popularActivities(){
     const renderPopularActivitiesData = popularActivitiesData.map(function(item2){
@@ -119,13 +123,14 @@ export function popularActivities(){
             <span>${item2.cruise}</span>
             <span>${item2.tour}</span> 
             <h4>$${item2.rs}</h4>
+            <button class="add-button" data-name="${item2.name}" data-price="${item2.price}" data-image="${item2.imageUrl}">Add +</button>
             <h6></h6>
         </div>`
     }).join("")
     document.getElementById('activities').innerHTML += `<div id="popular-activities-heading"><h1>Popular Activities</h1>
-                                                        <div class="activities-container">${renderPopularActivitiesData}</div> </div>`
+                                                        <div class="activities-container">${renderPopularActivitiesData}</div> </div>`   
+                                                                                               
 }
-
 
 //add search functionality
 export function filterData() {
