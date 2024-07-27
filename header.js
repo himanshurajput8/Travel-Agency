@@ -57,13 +57,17 @@ export function renderHeader(){
         menubarContainer.remove()            
                  
     })
-    var menuItems = document.querySelectorAll('.center-div li');
-        menuItems.forEach(function(item) {
-            item.addEventListener('click', function () {
-                var menubar = document.querySelector('.center-div');
-                menubar.remove()
-            });  
-        });       
+   var menuItems = document.querySelectorAll('.center-div li');
+    menuItems.forEach(function(item) {
+        item.addEventListener('click', function() {
+            var menubar = document.querySelector('.center-div'); 
+            if (window.innerWidth <= 992) { // Check if viewport width is below or equal to 992px (example breakpoint)
+                menubar.remove();
+            } else {
+                menubar.style.display = "block";
+            }
+        });  
+    });     
     
 } 
 
