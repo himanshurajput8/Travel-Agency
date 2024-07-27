@@ -415,10 +415,12 @@ header .center-div button{
   justify-content: center;
   margin-top: 20px;
   gap: 1%;
+  flex-wrap: wrap;
 }
 .tours-container button{
   position: absolute;
   right: 3%;
+  top: 60px;
   width: 50px;
   height: 40px;
   background-color: #060b23d9;
@@ -427,7 +429,7 @@ header .center-div button{
   font-size: 25px;
 }
 .tours-container img{
-  width: 250px;
+  width: 100%;
   height: 300px;
   border-radius: 10px;
  
@@ -612,12 +614,12 @@ footer {
   /* toor page responsive code here */
   .tour-inner-div{
     width: 100%;
-  }
-  .tours-container img{
-    width: 280px;
-  }
+  } 
+
   .tours-container{
     margin-top: 3px;
+    flex-direction: column;
+    
   } 
   .tour-text{
     margin-top: 1px;
