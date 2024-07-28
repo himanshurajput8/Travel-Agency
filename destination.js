@@ -1,9 +1,9 @@
 
 export const allDestinationData = [
-    { id: 1, name: 'Bali', imageUrl: "https://media.istockphoto.com/id/1876784184/photo/ulun-danu-beratan-temple-at-sunrise-bali-indonesia.webp?b=1&s=170667a&w=0&k=20&c=eJjvhRP4nUz1kBeKIN9YrFxtgs3d_9NYrxAgRjhucNU=", description: 'Bali, the Island of the Gods, is a paradise that offers something for everyone. From the stunning beaches of Kuta and Seminyak to the lush rice terraces of Ubud, the island is a haven for both relaxation and adventure. Visitors can explore iconic temples like Uluwatu and Tanah Lot, dive into the vibrant underwater world of Nusa Penida, and enjoy a lively nightlife scene. Bali is also renowned for its luxurious resorts and rejuvenating spa treatments, providing the perfect setting for relaxation. Immerse yourself in the rich Balinese culture and traditions traditions, and savor exquisite cuisine that will tantalize your taste buds. Whether you re seeking a peaceful retreat or an action-packed getaway,  Bali is the ultimate the ultimate destination for your next adventure', locationUrl: 'https://en.wikipedia.org/wiki/Bali'},
-    { id: 2, name: 'Bangkok', imageUrl: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/350599279.jpg?k=a5e491a7f969edd33907623ed53a6fe0ec67e5761664cbbdeffc1fbd436d36d0&o=&hp=1", description: 'Bangkok, the bustling capital of Thailand, is a city that seamlessly blends the old with the new, offering a unique and vibrant experience for all who visit. Located in the heart of Southeast Asia, this sprawling metropolis is renowned for its rich history, cultural landmarks, bustling markets, and modern skyscrapers. The city  historical core is home to some of Thailand s most revered cultural sites. The Grand Palace, a magnificent complex that has been the official residence of the Kings of Siam since 1782, is a must-see. Within its walls lies Wat Phra Kaew, the Temple of the Emerald Buddha. which houses a stunning statue carved from a single block of jade. Just a short distance away, Wat Arun, also known as the Temple of Dawn, offers  a  breathtaking  riverside. ', locationUrl: 'https://en.wikipedia.org/wiki/Bangkok' },
-    { id: 3, name: 'Cancun', imageUrl: "https://i.pinimg.com/736x/65/1a/a2/651aa2702d9d795c8191ee473167061e.jpg", description: 'Cancun, located on the northeastern coast of Mexico Yucatan Peninsula, is a world-renowned tourist destination that offers stunning beaches, vibrant nightlife, and rich cultural experiences. Known for its crystal-clear turquoise waters and powdery white-sand beaches, Cancun provides a perfect getaway for travelers seeking both relaxation and adventure. Cancun s coastline is dotted with some of the most beautiful beaches in the world. Playa Delfines, known for its expansive views and pristine sands, is a favorite among locals and tourists alike. For a more secluded experience, visit Playa Norte on Isla Mujeres, just a short ferry ride from Cancun. warm, shallow waters make it ideal for swimming and snorkeling. The Caribbean Sea offers endless opportunities for water for water-based activities. Dive into the Great Mesoamerican Reef, the second-largest barrier reef in the world,', locationUrl: 'https://en.wikipedia.org/wiki/Canc%C3%BAn' },
-    { id: 4, name: 'Nha Trang', imageUrl: "https://i.natgeofe.com/n/19c95966-50f6-403a-a6ab-c5504955ec7f/bangkok-travel_square.jpg", description: 'Nestled along the south-central coast of Vietnam, Nha Trang is a vibrant city famed for its pristine beaches, crystal-clear waters, and an array of marine life. Often referred to as the Riviera of the South China Sea, Nha Trang offers a perfect blend of natural beauty and urban charm. Nha Trang s coastline is dotted with picturesque beaches such as Tran Phu Beach, known for its bustling promenade, and the tranquil Bai Dai Beach. Just offshore, the Hon Mun and Hon Tam islands are a haven for snorkelers and divers, boasting vibrant coral reefs and diverse marine species', locationUrl: 'https://en.wikipedia.org/wiki/Nha_Trang' },
+    { id: 1, name: 'Bali', imageUrl: "https://media.istockphoto.com/id/1876784184/photo/ulun-danu-beratan-temple-at-sunrise-bali-indonesia.webp?b=1&s=170667a&w=0&k=20&c=eJjvhRP4nUz1kBeKIN9YrFxtgs3d_9NYrxAgRjhucNU=", description: 'Bali, the Island of the Gods, is a paradise that offers something for everyone. From the stunning beaches of Kuta and Seminyak to the lush rice terraces of Ubud, the island is a haven for both relaxation and adventure. Visitors can explore iconic temples like Uluwatu and Tanah Lot, dive into the vibrant underwater world of Nusa Penida, and enjoy a lively nightlife scene. Bali is also renowned for its luxurious resorts and rejuvenating spa treatments, providing the perfect setting for relaxation. Immerse yourself in the rich Balinese culture and traditions traditions, and savor exquisite cuisine that will tantalize your taste buds. Whether you re seeking a peaceful retreat or an action-packed getaway,  Bali is the ultimate the ultimate destination for your next adventure', locationUrl: 'https://en.wikipedia.org/wiki/Bali',mapLink: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d505145.6949744661!2d115.07157704999999!3d-8.4554714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd141d3e8100fa1%3A0x24910fb14b24e690!2sBali%2C%20Indonesia!5e0!3m2!1sen!2sin!4v1722179689203!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'},
+    { id: 2, name: 'Bangkok', imageUrl: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/350599279.jpg?k=a5e491a7f969edd33907623ed53a6fe0ec67e5761664cbbdeffc1fbd436d36d0&o=&hp=1", description: 'Bangkok, the bustling capital of Thailand, is a city that seamlessly blends the old with the new, offering a unique and vibrant experience for all who visit. Located in the heart of Southeast Asia, this sprawling metropolis is renowned for its rich history, cultural landmarks, bustling markets, and modern skyscrapers. The city  historical core is home to some of Thailand s most revered cultural sites. The Grand Palace, a magnificent complex that has been the official residence of the Kings of Siam since 1782, is a must-see. Within its walls lies Wat Phra Kaew, the Temple of the Emerald Buddha. which houses a stunning statue carved from a single block of jade. Just a short distance away, Wat Arun, also known as the Temple of Dawn, offers  a  breathtaking  riverside. ', locationUrl: 'https://en.wikipedia.org/wiki/Bangkok',mapLink: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248057.49867579533!2d100.63311079999998!3d13.724599549999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d6032280d61f3%3A0x10100b25de24820!2sBangkok%2C%20Thailand!5e0!3m2!1sen!2sin!4v1722185437538!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade' },
+    { id: 3, name: 'Cancun', imageUrl: "https://i.pinimg.com/736x/65/1a/a2/651aa2702d9d795c8191ee473167061e.jpg", description: 'Cancun, located on the northeastern coast of Mexico Yucatan Peninsula, is a world-renowned tourist destination that offers stunning beaches, vibrant nightlife, and rich cultural experiences. Known for its crystal-clear turquoise waters and powdery white-sand beaches, Cancun provides a perfect getaway for travelers seeking both relaxation and adventure. Cancun s coastline is dotted with some of the most beautiful beaches in the world. Playa Delfines, known for its expansive views and pristine sands, is a favorite among locals and tourists alike. For a more secluded experience, visit Playa Norte on Isla Mujeres, just a short ferry ride from Cancun. warm, shallow waters make it ideal for swimming and snorkeling. The Caribbean Sea offers endless opportunities for water for water-based activities. Dive into the Great Mesoamerican Reef, the second-largest barrier reef in the world,', locationUrl: 'https://en.wikipedia.org/wiki/Canc%C3%BAn',mapLink: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119096.90952604143!2d-86.85640384999999!3d21.12139825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4c2b05aef653db%3A0xce32b73c625fcd8a!2sCanc%C3%BAn%2C%20Quintana%20Roo%2C%20Mexico!5e0!3m2!1sen!2sin!4v1722185665295!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade' },
+    { id: 4, name: 'Nha Trang', imageUrl: "https://i.natgeofe.com/n/19c95966-50f6-403a-a6ab-c5504955ec7f/bangkok-travel_square.jpg", description: 'Nestled along the south-central coast of Vietnam, Nha Trang is a vibrant city famed for its pristine beaches, crystal-clear waters, and an array of marine life. Often referred to as the Riviera of the South China Sea, Nha Trang offers a perfect blend of natural beauty and urban charm. Nha Trang s coastline is dotted with picturesque beaches such as Tran Phu Beach, known for its bustling promenade, and the tranquil Bai Dai Beach. Just offshore, the Hon Mun and Hon Tam islands are a haven for snorkelers and divers, boasting vibrant coral reefs and diverse marine species', locationUrl: 'https://en.wikipedia.org/wiki/Nha_Trang',mapLink: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124762.70707798099!2d109.24650199999999!3d12.25947015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3170677811cc886f%3A0x5c4bbc0aa81edcb9!2zTmhhIFRyYW5nLCBLaMOhbmggSMOyYSwgVmlldG5hbQ!5e0!3m2!1sen!2sin!4v1722185847141!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade' },
 
     { id: 5, name: 'Switzerland', imageUrl: "https://img.freepik.com/premium-photo/greenery-switzerland_997657-1089.jpg?w=360"},
     { id: 6, name: 'Goa', imageUrl: "https://i.pinimg.com/736x/6f/fe/75/6ffe752b395a5a5a75cf1c30d930d136.jpg" },
@@ -76,7 +76,8 @@ export function renderData(data) {
             })
             seeAllButton.innerText = "See All Destination" 
         }
-    });    
+    });  
+
      // Add click event listener to each destination image
     document.querySelectorAll('.destination-img').forEach(function (image) {
     image.addEventListener('click', function () {
@@ -102,10 +103,28 @@ function showDestinationDetails(id) {
                 <h2>${destination.name}</h2>
                 <img src="${destination.imageUrl}">
                 <p>${destination.description}
-                <a href="${destination.locationUrl}" class="destination-link" target="_blank" >View More about ${destination.name}</a></p>
+                <a href="${destination.locationUrl}" class="destination-link" target="_blank" >View More about ${destination.name}</a>
+                 <button id="map-btn">See  ${destination.name}  on google map</button>  </p> 
+               <div id="map-container">
+                    <button id="close-map">X</button>
+                    <iframe src="${destination.mapLink}"></iframe>
+            
             </div>
+            </div>
+           
+                
         `;
-        document.getElementById('app').innerHTML = detailHTML;     
+        document.getElementById('app').innerHTML = detailHTML;    
+        //add event listener on map btn for open the google map
+        document.getElementById('map-btn').addEventListener('click', function(){        
+            var mapContainer = document.getElementById('map-container')
+            mapContainer.style.display = "block"        
+        })
+        //add event listener for close to google map
+        document.getElementById('close-map').addEventListener('click', function(){
+            var mapContainer = document.getElementById('map-container')
+            mapContainer.style.display = "none" 
+        })
     }
 }
 
@@ -122,8 +141,7 @@ export function popularActivities(){
             <h5>5.00(2 reviews)</h5>            
             <span>${item2.cruise}</span>
             <span>${item2.tour}</span> 
-            <h4>$${item2.rs}</h4>
-            <button class="add-button" data-name="${item2.name}" data-price="${item2.price}" data-image="${item2.imageUrl}">Add +</button>
+            <h4>$${item2.rs}</h4>           
             <h6></h6>
         </div>`
     }).join("")
@@ -141,6 +159,7 @@ export function filterData() {
     console.log(filteredData)  
     renderData(filteredData);  
 }   
+
  
 //function of footers
 export function renderFooter(){
@@ -152,6 +171,5 @@ export function renderFooter(){
     document.getElementById('activities').innerHTML += footerTemplate 
 }
  
-
 
 

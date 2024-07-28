@@ -1,8 +1,7 @@
 import { renderAboutUs } from './aboutUs.js';
 import { renderTours } from './aboutUs.js';
 // import { navigate } from './router.js';
-import { renderLandingPage } from "./landingPage.js";
-import { renderData, allDestinationData } from './destination.js';
+
 
 
 
@@ -41,16 +40,19 @@ export function renderHeader(){
         renderAboutUs();                                 
         document.getElementById('activities').remove()      
     });
+
     // add event listener to Tours
     document.getElementById('tours-link').addEventListener('click',function(){        
         renderTours()
         document.getElementById('activities').remove()   
     })
+
     //add event listener to menubar icon when i click this then menubar will be open 
     document.querySelector('.menu-bar-icon').addEventListener('click', function(){
       var menubarr = document.querySelector('.center-div')
       menubarr.style.display = "block"
     })
+
     //add event listener to close menu bar 
     document.getElementById('hide-menubar-btn').addEventListener('click', function(){      
         var menubarContainer = document.querySelector('.center-div')
@@ -61,7 +63,7 @@ export function renderHeader(){
     menuItems.forEach(function(item) {
         item.addEventListener('click', function() {
             var menubar = document.querySelector('.center-div'); 
-            if (window.innerWidth <= 992) { // Check if viewport width is below or equal to 992px (example breakpoint)
+            if (window.innerWidth <= 992) { 
                 menubar.remove();
             } else {
                 menubar.style.display = "block";

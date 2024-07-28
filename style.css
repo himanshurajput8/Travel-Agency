@@ -40,6 +40,7 @@ header ul li {
   list-style-type: none;
   font-family: Arial, Helvetica, sans-serif;  
   font-weight: 700;
+  cursor: pointer;
   
 }
 
@@ -173,6 +174,49 @@ header .center-div button{
   font-weight: 700;
   font-size: 2rem;
 }
+/* google map code start here  */
+#map-container{
+ display: flex;
+ display: none;
+ text-align: center;
+ margin-bottom: 100px;
+ width: 80%;
+ position: absolute;
+ top: 0;
+ left: 10%;
+}
+iframe{
+  width: 100%;
+  height: 100vh;
+}
+#map-btn{
+  position: absolute;
+  bottom: 0px;
+  left: 45%;
+  background-color: #060b23bd; 
+  color: white;
+  height: 40px;
+  width: 250px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+#map-btn:hover{
+  background-color: #060b23;
+}
+#close-map{
+  position: absolute;
+  right: -30px;
+  top: -30px;
+  width: 40px;
+  height: 30px;
+  background-color: white;
+  /* color: white; */
+  font-size: 30px;
+  cursor: pointer;
+  border: none;
+}
+
+/* google map code End here  */
 
 .button-container {
   grid-column: span 4;
@@ -419,8 +463,8 @@ header .center-div button{
 }
 .tours-container button{
   position: absolute;
-  right: 3%;
-  top: 60px;
+  right: 10%;
+  top: 100px;
   width: 50px;
   height: 40px;
   background-color: #060b23d9;
@@ -624,6 +668,11 @@ footer {
   .tour-text{
     margin-top: 1px;
   }
+  .tours-container button{    
+    right: 3%;
+    top: 60px;    
+    
+  }
   /* about-us page responsive code here */  
   .about-us-content {
     grid-template-areas:
@@ -647,8 +696,37 @@ footer {
   }
   .item5 ul li{
     list-style-type: none;
+  } 
+  #map-btn{
+   
+    bottom: 30px;
+    margin-top: 20px;
+    left: 3%;
+    bottom: -50px;    
+    background-color: #060b23; 
+    color: white;
+    height: 40px;
+    width: 250px;
+    font-size: 1rem;
+    cursor: pointer;  
+    
+  } 
+  #map-container{    
+    width: 97%;
+    height: 100vh;    
+    top: 0;
+    left: 0;   
+   }
+
+  iframe{
+    height: 900px;
+  } 
+  #close-map{
+    top: 0;
+    right: 0;
+    background-color: #060b23;
+    color: white; 
   }  
-  
  
 }
 
