@@ -79,6 +79,8 @@ header .center-div button{
   position: absolute;
   top: 10px;
   right: 10px;
+  width: 40px;
+  height: 35px;
   border-radius: 2px;
   font-size: 20px;
 }
@@ -687,10 +689,11 @@ footer {
     display: none;
   }
   .item5 {
-    width: 100vw;
+    width: 58%;
     padding: 0px;    
     
   }
+  
   .item5 ul {
     padding-left: 0px;
   }
@@ -727,6 +730,10 @@ footer {
     background-color: #060b23;
     color: white; 
   }  
+  .item5 button {
+    top: 5px;
+    right: 5px;
+  }
  
 }
 
