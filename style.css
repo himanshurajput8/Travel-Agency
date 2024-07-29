@@ -81,7 +81,7 @@ header .center-div button{
   right: 10px;
   width: 40px;
   height: 35px;
-  border-radius: 2px;
+  border-radius: 1px;
   font-size: 20px;
 }
 
@@ -153,9 +153,7 @@ header .center-div button{
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   margin-top: 30px;
-  text-align: center;
-
-
+  text-align: center; 
 }
 
 .destination-img img {
@@ -689,8 +687,8 @@ footer {
     display: none;
   }
   .item5 {
-    width: 58%;
-    padding: 0px;    
+    width: 60%;
+    padding: 10px;    
     
   }
   
