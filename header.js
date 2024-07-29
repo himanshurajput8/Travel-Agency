@@ -1,4 +1,4 @@
-import { renderAboutUs } from './aboutUs.js';
+import { renderAboutUs, renderBlog } from './aboutUs.js';
 import { renderTours } from './aboutUs.js';
 // import { navigate } from './router.js';
 
@@ -17,7 +17,7 @@ export function renderHeader(){
               <li><a href="">Home</a></li>                            
               <li id="tours-link">Tours</li>           
               <li><a href="#destination-title">Destination</a></li>
-              <li><a href="">Blogs</a></li>        
+              <li id="blog-btn">Blogs</li>        
               <li><a href="">Shop</a></li>        
               <li><a href="">Pages</a></li>                    
               <li id="about-us-link">About Us</li>                     
@@ -69,7 +69,12 @@ export function renderHeader(){
                 menubar.style.display = "block";
             }
         });  
-    });     
+    }); 
+    //add event listener to blog
+    document.getElementById('blog-btn').addEventListener('click', function(){
+        renderBlog()
+        document.getElementById('activities').remove()  
+    })    
     
 } 
 
