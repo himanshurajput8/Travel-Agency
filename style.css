@@ -702,7 +702,7 @@ footer {
    
     bottom: 30px;
     margin-top: 20px;
-    left: 3%;
+    left: 4%;
     bottom: -80px;    
     background-color: #060b23; 
     color: white;
@@ -720,7 +720,7 @@ footer {
    }
 
   iframe{
-    height: 900px;
+    height: 900px; 
   } 
   #close-map{
     top: 0;
