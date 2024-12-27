@@ -165,7 +165,7 @@ export function filterData() {
 export function renderFooter(){
     const footerTemplate = `
     <footer id="footer">
-    <div>@copyright2024</div>
+    <div> Develop by Himanshu Rajput ❤️ </div>
     </footer>
     `
     document.getElementById('activities').innerHTML += footerTemplate 

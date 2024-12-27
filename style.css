@@ -779,9 +779,11 @@ footer {
   .blog-container img{
     height: 200px;
   }
+  
   .blog-container img:hover{
     width: 70%;
   }
+  
   .blog-container>:nth-child(even){
     display: none;
   }
@@ -801,3 +803,4 @@ footer {
   height: 100vh;
   z-index: 3;
 } 
+ 
