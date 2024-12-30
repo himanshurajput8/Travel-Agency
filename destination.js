@@ -141,7 +141,7 @@ export function popularActivities(){
             <h5>5.00(2 reviews)</h5>            
             <span>${item2.cruise}</span>
             <span>${item2.tour}</span> 
-            <h4>$${item2.rs}</h4>           
+            <h4>$${item2.rs }</h4>           
             <h6></h6>
         </div>`
     }).join("")
