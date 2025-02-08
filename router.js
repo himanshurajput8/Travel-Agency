@@ -8,7 +8,7 @@ const routes = {
     '/tours': () => '<h1>Tours Page</h1>',
     '/blogs': () => '<h1>Blogs Page</h1>',
     '/shop': () => '<h1>Shop Page</h1>',
-    '/pages': () => '<h1>Pages</h1>'   
+    '/pages': () => '<h1> Pages</h1>'   
 };
 
 function getRoute() {
